@@ -1,6 +1,6 @@
 SELECT
-    c.id,
-    c.name
+    id,
+    name
 FROM
     customers c
 WHERE NOT EXISTS
